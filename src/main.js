@@ -1,23 +1,30 @@
+// const Home = require('./pages/Home')
+// const Profile = require('./pages/Profile')
+// const Transactions = require('./pages/Transactions')
+import Home from "./pages/Home";
+import Profile from './pages/Profile';
+import Transactions from './pages/Transactions';
+
 const navigate = path => {
   history.pushState(null, null, path);
   router();
 }
-const router = () => {
+const router = async () => {
   const routes = [
     {
       path: '/',
       title: 'Home',
-      component: () => console.log('HOME')
+      component: Home,
     },
     {
       path: '/profile',
       title: 'Profile',
-      component: () => console.log('PROFILE')
+      component: Profile,
     },
     {
       path: '/transactions',
       title: 'Transactions',
-      component: () => console.log('Transactions')
+      component: Transactions,
     },
   ];
   
@@ -26,8 +33,10 @@ const router = () => {
     isMatch: route.path === location.pathname
   }))
   const match = matchPaths.find((path) => path.isMatch)
+  const component = new match.component()
+  document.querySelector('#app').innerHTML = await component.render()
 }
-
+window.addEventListener('popstate', router)
 document.addEventListener('DOMContentLoaded', () => {
   document.body.addEventListener('click', (event) => {
     if (event.target.matches('[data-router-link]')) {

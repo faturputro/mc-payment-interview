@@ -1,11 +1,11 @@
 import View from "../helper/View";
 
-export default class Home extends View {
+export default class Profile extends View {
   constructor() {
     super()
-    this.setTitle('Home')
+    this.setTitle('Profile')
   }
   async render() {
-    return 'HOME'
+    return 'Profile'
   }
 }

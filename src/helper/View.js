@@ -5,6 +5,6 @@ export default class View {
     document.title = title
   }
   render() {
-    document.querySelector('#app').innerHTML = 'hehe'
+    return ''
   }
 }
