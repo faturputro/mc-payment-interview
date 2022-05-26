@@ -1,0 +1,20 @@
+{
+  "name": "mc-payment-interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:faturputro/mc-payment-interview.git",
+  "author": "Faturachman Dwi Putro <44432754+faturputro@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "scss": "node-sass --watch ./src/assets/scss -o ./src/assets/css"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}
