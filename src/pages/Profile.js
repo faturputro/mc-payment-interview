@@ -6,6 +6,11 @@ export default class Profile extends View {
     this.setTitle('Profile')
   }
   async render() {
-    return 'Profile'
+    return `
+      <div class="container card">
+        <h1 class="my-1 mt-2">Profile</h1>
+        <p class="sub-heading">Edit your profile</p>
+      </div>
+    `
   }
 }

@@ -11,12 +11,22 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class="nav">
-    <a href="/" data-router-link>Dashboard</a>
-    <a href="/profile" data-router-link>Profile</a>
-    <a href="/transactions" data-router-link>Transactions</a>
+  <nav class="nav container py-1 mt-2">
+    <div class="flex justify-between">
+      <div></div>
+      <ul class="flex justify-around nav-links w-1/2">
+        <li>
+          <a href="/" data-router-link>Dashboard</a>
+        </li>
+        <li>
+          <a href="/profile" data-router-link>Profile</a>
+        </li>
+        <li>
+          <a href="/transactions" data-router-link>Transactions</a>
+        </li>
+      </ul>
+    </div>
   </nav>
-  <p>test</p>
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
 </body>

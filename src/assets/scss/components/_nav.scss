@@ -1,0 +1,13 @@
+.nav {
+  position: sticky;
+  top: 0;
+  background: $white;
+  box-shadow: $shadow;
+  border-radius: $rounded;
+
+  div {
+    .nav-links li {
+      list-style: none;
+    }
+  }
+}

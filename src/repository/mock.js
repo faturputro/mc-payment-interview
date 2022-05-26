@@ -1,0 +1,301 @@
+export const items = JSON.parse(`[{
+  "id": 1,
+  "item": "Music",
+  "qty": 5,
+  "price": 44032,
+  "logo": "http://dummyimage.com/155x100.png/dddddd/000000"
+}, {
+  "id": 2,
+  "item": "Automotive",
+  "qty": 1,
+  "price": 94287,
+  "logo": "http://dummyimage.com/223x100.png/5fa2dd/ffffff"
+}, {
+  "id": 3,
+  "item": "Books",
+  "qty": 4,
+  "price": 165604,
+  "logo": "http://dummyimage.com/144x100.png/ff4444/ffffff"
+}, {
+  "id": 4,
+  "item": "Movies",
+  "qty": 4,
+  "price": 332207,
+  "logo": "http://dummyimage.com/124x100.png/cc0000/ffffff"
+}, {
+  "id": 5,
+  "item": "Clothing",
+  "qty": 2,
+  "price": 226833,
+  "logo": "http://dummyimage.com/109x100.png/5fa2dd/ffffff"
+}, {
+  "id": 6,
+  "item": "Electronics",
+  "qty": 2,
+  "price": 822209,
+  "logo": "http://dummyimage.com/230x100.png/ff4444/ffffff"
+}, {
+  "id": 7,
+  "item": "Shoes",
+  "qty": 5,
+  "price": 570237,
+  "logo": "http://dummyimage.com/127x100.png/5fa2dd/ffffff"
+}, {
+  "id": 8,
+  "item": "Kids",
+  "qty": 5,
+  "price": 304007,
+  "logo": "http://dummyimage.com/190x100.png/dddddd/000000"
+}, {
+  "id": 9,
+  "item": "Shoes",
+  "qty": 4,
+  "price": 542541,
+  "logo": "http://dummyimage.com/118x100.png/5fa2dd/ffffff"
+}, {
+  "id": 10,
+  "item": "Garden",
+  "qty": 2,
+  "price": 627804,
+  "logo": "http://dummyimage.com/204x100.png/5fa2dd/ffffff"
+}, {
+  "id": 11,
+  "item": "Movies",
+  "qty": 3,
+  "price": 951517,
+  "logo": "http://dummyimage.com/247x100.png/cc0000/ffffff"
+}, {
+  "id": 12,
+  "item": "Games",
+  "qty": 2,
+  "price": 932953,
+  "logo": "http://dummyimage.com/187x100.png/5fa2dd/ffffff"
+}, {
+  "id": 13,
+  "item": "Home",
+  "qty": 4,
+  "price": 520817,
+  "logo": "http://dummyimage.com/236x100.png/cc0000/ffffff"
+}, {
+  "id": 14,
+  "item": "Outdoors",
+  "qty": 1,
+  "price": 942176,
+  "logo": "http://dummyimage.com/240x100.png/dddddd/000000"
+}, {
+  "id": 15,
+  "item": "Health",
+  "qty": 2,
+  "price": 461888,
+  "logo": "http://dummyimage.com/104x100.png/cc0000/ffffff"
+}, {
+  "id": 16,
+  "item": "Home",
+  "qty": 2,
+  "price": 447359,
+  "logo": "http://dummyimage.com/100x100.png/cc0000/ffffff"
+}, {
+  "id": 17,
+  "item": "Home",
+  "qty": 2,
+  "price": 23346,
+  "logo": "http://dummyimage.com/236x100.png/ff4444/ffffff"
+}, {
+  "id": 18,
+  "item": "Books",
+  "qty": 5,
+  "price": 773529,
+  "logo": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
+}, {
+  "id": 19,
+  "item": "Garden",
+  "qty": 2,
+  "price": 659720,
+  "logo": "http://dummyimage.com/137x100.png/dddddd/000000"
+}, {
+  "id": 20,
+  "item": "Books",
+  "qty": 4,
+  "price": 319563,
+  "logo": "http://dummyimage.com/205x100.png/cc0000/ffffff"
+}, {
+  "id": 21,
+  "item": "Toys",
+  "qty": 5,
+  "price": 174007,
+  "logo": "http://dummyimage.com/107x100.png/cc0000/ffffff"
+}, {
+  "id": 22,
+  "item": "Tools",
+  "qty": 5,
+  "price": 139485,
+  "logo": "http://dummyimage.com/189x100.png/ff4444/ffffff"
+}, {
+  "id": 23,
+  "item": "Games",
+  "qty": 1,
+  "price": 319501,
+  "logo": "http://dummyimage.com/160x100.png/cc0000/ffffff"
+}, {
+  "id": 24,
+  "item": "Music",
+  "qty": 5,
+  "price": 763296,
+  "logo": "http://dummyimage.com/229x100.png/cc0000/ffffff"
+}, {
+  "id": 25,
+  "item": "Grocery",
+  "qty": 3,
+  "price": 59498,
+  "logo": "http://dummyimage.com/132x100.png/dddddd/000000"
+}, {
+  "id": 26,
+  "item": "Electronics",
+  "qty": 2,
+  "price": 376993,
+  "logo": "http://dummyimage.com/171x100.png/5fa2dd/ffffff"
+}, {
+  "id": 27,
+  "item": "Shoes",
+  "qty": 3,
+  "price": 547690,
+  "logo": "http://dummyimage.com/207x100.png/5fa2dd/ffffff"
+}, {
+  "id": 28,
+  "item": "Kids",
+  "qty": 1,
+  "price": 901585,
+  "logo": "http://dummyimage.com/123x100.png/cc0000/ffffff"
+}, {
+  "id": 29,
+  "item": "Home",
+  "qty": 5,
+  "price": 649505,
+  "logo": "http://dummyimage.com/182x100.png/cc0000/ffffff"
+}, {
+  "id": 30,
+  "item": "Sports",
+  "qty": 1,
+  "price": 157940,
+  "logo": "http://dummyimage.com/108x100.png/dddddd/000000"
+}, {
+  "id": 31,
+  "item": "Shoes",
+  "qty": 2,
+  "price": 164059,
+  "logo": "http://dummyimage.com/243x100.png/ff4444/ffffff"
+}, {
+  "id": 32,
+  "item": "Toys",
+  "qty": 1,
+  "price": 739581,
+  "logo": "http://dummyimage.com/194x100.png/ff4444/ffffff"
+}, {
+  "id": 33,
+  "item": "Movies",
+  "qty": 1,
+  "price": 911260,
+  "logo": "http://dummyimage.com/209x100.png/cc0000/ffffff"
+}, {
+  "id": 34,
+  "item": "Electronics",
+  "qty": 1,
+  "price": 574037,
+  "logo": "http://dummyimage.com/141x100.png/cc0000/ffffff"
+}, {
+  "id": 35,
+  "item": "Music",
+  "qty": 2,
+  "price": 490522,
+  "logo": "http://dummyimage.com/173x100.png/ff4444/ffffff"
+}, {
+  "id": 36,
+  "item": "Baby",
+  "qty": 4,
+  "price": 701321,
+  "logo": "http://dummyimage.com/220x100.png/dddddd/000000"
+}, {
+  "id": 37,
+  "item": "Games",
+  "qty": 5,
+  "price": 873503,
+  "logo": "http://dummyimage.com/125x100.png/cc0000/ffffff"
+}, {
+  "id": 38,
+  "item": "Books",
+  "qty": 3,
+  "price": 810664,
+  "logo": "http://dummyimage.com/180x100.png/cc0000/ffffff"
+}, {
+  "id": 39,
+  "item": "Shoes",
+  "qty": 4,
+  "price": 952421,
+  "logo": "http://dummyimage.com/103x100.png/5fa2dd/ffffff"
+}, {
+  "id": 40,
+  "item": "Books",
+  "qty": 3,
+  "price": 778070,
+  "logo": "http://dummyimage.com/250x100.png/dddddd/000000"
+}, {
+  "id": 41,
+  "item": "Grocery",
+  "qty": 4,
+  "price": 441408,
+  "logo": "http://dummyimage.com/140x100.png/dddddd/000000"
+}, {
+  "id": 42,
+  "item": "Outdoors",
+  "qty": 3,
+  "price": 947555,
+  "logo": "http://dummyimage.com/108x100.png/5fa2dd/ffffff"
+}, {
+  "id": 43,
+  "item": "Industrial",
+  "qty": 5,
+  "price": 673547,
+  "logo": "http://dummyimage.com/213x100.png/dddddd/000000"
+}, {
+  "id": 44,
+  "item": "Music",
+  "qty": 1,
+  "price": 815694,
+  "logo": "http://dummyimage.com/111x100.png/cc0000/ffffff"
+}, {
+  "id": 45,
+  "item": "Jewelry",
+  "qty": 3,
+  "price": 715204,
+  "logo": "http://dummyimage.com/121x100.png/dddddd/000000"
+}, {
+  "id": 46,
+  "item": "Health",
+  "qty": 3,
+  "price": 941075,
+  "logo": "http://dummyimage.com/164x100.png/ff4444/ffffff"
+}, {
+  "id": 47,
+  "item": "Garden",
+  "qty": 5,
+  "price": 427017,
+  "logo": "http://dummyimage.com/140x100.png/dddddd/000000"
+}, {
+  "id": 48,
+  "item": "Clothing",
+  "qty": 5,
+  "price": 819114,
+  "logo": "http://dummyimage.com/219x100.png/dddddd/000000"
+}, {
+  "id": 49,
+  "item": "Tools",
+  "qty": 3,
+  "price": 857933,
+  "logo": "http://dummyimage.com/141x100.png/cc0000/ffffff"
+}, {
+  "id": 50,
+  "item": "Beauty",
+  "qty": 4,
+  "price": 393567,
+  "logo": "http://dummyimage.com/116x100.png/cc0000/ffffff"
+}]`)
