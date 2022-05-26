@@ -1,6 +1,3 @@
-// const Home = require('./pages/Home')
-// const Profile = require('./pages/Profile')
-// const Transactions = require('./pages/Transactions')
 import Home from "./pages/Home";
 import Profile from './pages/Profile';
 import Transactions from './pages/Transactions';
