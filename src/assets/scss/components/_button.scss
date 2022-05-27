@@ -1,0 +1,13 @@
+.btn {
+  border: none;
+  background-color: $primary;
+  cursor: pointer;
+  color: $white;
+  border-radius: 6px;
+  padding: 10px 2.5rem;
+  transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+  &:hover {
+    background-color: $primary-darker;
+  }
+}
