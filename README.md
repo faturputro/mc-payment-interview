@@ -6,6 +6,12 @@ node findTwoSums
 ```
 2. Budget application
 
+Stacks:
+- HTML
+- CSS with preprocessor (SCSS)
+- Javascript
+- Express.js
+
 To run this application make sure to do `yarn install` to install all of the dependencies and run the app with `yarn dev` to run in development mode and also run `yarn scss` to watch all of the changes for the `.scss` files.
 The app is made pure HTML, CSS, and Javascript with modern ES6 to use module and class and also with CSS preprocessor (SCSS). The app is made to behave like a Singe-Page Application so whenever the user navigate through the links the page will not refresh because it is using the browser's History API. By default the app will run on port 3000 you can provide your own `.env` file to run it different port.
 
