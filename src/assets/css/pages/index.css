@@ -1,0 +1,13 @@
+.transaction-list li .img-rounded--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: aliceblue; }
+
+.transaction-item--title {
+  font-weight: 500;
+  font-size: 1.2rem; }

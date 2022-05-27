@@ -1,11 +1,45 @@
 .transaction-list {
   li {
     .img-rounded--container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       height: 50px;
       width: 50px;
       overflow: hidden;
       border-radius: 9999px;
       background-color: aliceblue;
     }
+  }
+}
+.transaction-item--title {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.transaction-item--price {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.price-green {
+  color: $success;
+}
+.price-red {
+  color: $error;
+}
+
+.price-total {
+  color: $black;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .transaction-item--price {
+    font-size: 1rem;
+  }
+  .price-total {
+    font-size: 1rem;
   }
 }

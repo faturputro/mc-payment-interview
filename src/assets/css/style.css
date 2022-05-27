@@ -15,15 +15,49 @@ img {
   max-width: 100%;
   height: auto; }
 
+hr {
+  border: none;
+  border-top: 1px solid rgba(210, 210, 210, 0.4);
+  height: 0;
+  outline: none; }
+
 .sub-heading {
   color: rgba(0, 0, 0, 0.4); }
 
 .transaction-list li .img-rounded--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 50px;
   width: 50px;
   overflow: hidden;
   border-radius: 9999px;
   background-color: aliceblue; }
+
+.transaction-item--title {
+  font-weight: 500;
+  font-size: 1rem; }
+
+.transaction-item--price {
+  font-weight: 500;
+  font-size: 1.2rem; }
+
+.price-green {
+  color: #4cdfa2; }
+
+.price-red {
+  color: #ff6f6f; }
+
+.price-total {
+  color: #272727;
+  font-weight: 600;
+  font-size: 1.5rem; }
+
+@media only screen and (max-width: 480px) {
+  .transaction-item--price {
+    font-size: 1rem; }
+  .price-total {
+    font-size: 1rem; } }
 
 .nav {
   position: sticky;
@@ -83,6 +117,9 @@ img {
 
 .items-end {
   align-items: flex-end; }
+
+.flex-col {
+  flex-direction: column; }
 
 .flex {
   display: flex; }
